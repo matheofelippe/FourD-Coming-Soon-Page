@@ -23,6 +23,11 @@
     color: white;
     font-family: "Graphik", sans-serif;
     font-weight: 400; 
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; /* 10px */
 }
 
 body{
@@ -30,7 +35,7 @@ body{
 }
 
 .fourdLogo {
-    margin: 92px 0 0 290px;
+    margin: 9.2rem 0 0 15%;
     z-index: 3;
     position: relative;
 }
@@ -39,7 +44,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -75px;
+    margin-top: -7.5rem;
     z-index: 1;
     position: relative;
 }
@@ -50,7 +55,7 @@ body{
 }
 
 .contactInfos{
-    line-height: 32px;
+    line-height: 3.2rem;
 }
 
 .contactInfos:last-child{
@@ -59,10 +64,10 @@ body{
 
 .mailStyle{
     color: #dc99d7;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: "Graphik", sans-serif;
     font-weight: 700;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
 }
 
 .mailStyle span{
@@ -72,18 +77,19 @@ body{
 }
 
 .addressInfos{
-    margin-left: 278px;
-    margin-top: -50px;
+    font-size: 1.6rem;
+    margin-left: 15%; 
+    margin-top: -5rem;
 }
 
 .sloganText{
     text-align: end;
-    margin-right: 285px;
-    margin-top: -50px;
+    margin-right: 15.5%;
+    margin-top: -5rem;
 }
 
 .sloganText h2{
-    font-size: 40px;
+    font-size: 4.0rem;
     font-family: "Graphik", sans-serif;
     font-weight: 500; 
 }
@@ -93,7 +99,7 @@ a{
     font-weight: 700; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     body {
         height: 100vh;
         display: flex;
@@ -103,7 +109,7 @@ a{
     }
 
     .fourdLogo {
-        margin: 20px auto;
+        margin: 2rem auto;
         text-align: center;
     }
 
@@ -113,32 +119,31 @@ a{
     }
 
     .digitalLogo {
-        margin: 20px auto;
+        margin: 2rem auto;
         text-align: center;
     }
 
     .addressInfos {
-        margin: 10px auto;
+        margin: 1rem auto;
         text-align: center;
     }
 
     .contactInfos {
-        margin-top: 20px;
+        margin-top: 2rem;
         text-align: center;
-        line-height: 1.5;
     }
 
     .sloganText {
-        margin: 20px auto;
+        margin: 2rem auto;
         text-align: center;
     }
 
     .sloganText h2 {
-        font-size: 24px;
+        font-size: 2.4rem;
     }
 
     a {
         display: block;
-        margin-top: 10px;
+        margin-top: 1rem;
     }
 }

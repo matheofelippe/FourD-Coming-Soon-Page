@@ -107,6 +107,11 @@ a{
         text-align: center;
     }
 
+    .fourdLogo img {
+        max-width: 50%;
+        height: auto;
+    }
+
     .digitalLogo {
         margin: 20px auto;
         text-align: center;

@@ -23,7 +23,6 @@
     color: white;
     font-family: "Graphik", sans-serif;
     font-weight: 400; 
-    /* transform: scale(0.96); */
 }
 
 body{
@@ -33,7 +32,7 @@ body{
 .fourdLogo {
     margin: 92px 0 0 290px;
     z-index: 3;
-    position: relative; /* Adiciona posicionamento */
+    position: relative;
 }
 
 .digitalLogo {
@@ -42,7 +41,7 @@ body{
     align-items: center;
     margin-top: -75px;
     z-index: 1;
-    position: relative; /* Adiciona posicionamento */
+    position: relative;
 }
 
 .digitalLogo img{
@@ -92,4 +91,49 @@ body{
 a{
     text-decoration: none;
     font-weight: 700; 
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fourdLogo {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .digitalLogo {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .addressInfos {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .contactInfos {
+        margin-top: 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .sloganText {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .sloganText h2 {
+        font-size: 24px;
+    }
+
+    a {
+        display: block;
+        margin-top: 10px;
+    }
 }

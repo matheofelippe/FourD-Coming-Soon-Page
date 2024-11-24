@@ -1,10 +1,95 @@
+@font-face {
+    font-family: "Graphik";
+    src: url("assets/Graphik-Regular-Trial.otf") format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("assets/Graphik-Medium-Trial.otf") format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("assets/Graphik-Bold-Trial.otf") format("opentype");
+    font-weight: 700;
+}
+
 *{
     margin: 0;
     border: 0;
     padding: 0;
     color: white;
+    font-family: "Graphik", sans-serif;
+    font-weight: 400; 
+    /* transform: scale(0.96); */
 }
 
 body{
     background-color: black;
+}
+
+.fourdLogo {
+    margin: 92px 0 0 290px;
+    z-index: 3;
+    position: relative; /* Adiciona posicionamento */
+}
+
+.digitalLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -75px;
+    z-index: 1;
+    position: relative; /* Adiciona posicionamento */
+}
+
+.digitalLogo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.contactInfos{
+    line-height: 32px;
+}
+
+.contactInfos:last-child{
+    line-height: none;
+}
+
+.mailStyle{
+    color: #dc99d7;
+    font-size: 24px;
+    font-family: "Graphik", sans-serif;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.mailStyle span{
+    font-family: "Graphik", sans-serif;
+    font-weight: 400;
+    color: #dc99d7;
+}
+
+.addressInfos{
+    margin-left: 278px;
+    margin-top: -50px;
+}
+
+.sloganText{
+    text-align: end;
+    margin-right: 285px;
+    margin-top: -50px;
+}
+
+.sloganText h2{
+    font-size: 40px;
+    font-family: "Graphik", sans-serif;
+    font-weight: 500; 
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700; 
 }

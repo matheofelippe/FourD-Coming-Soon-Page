@@ -16,7 +16,7 @@
     font-weight: 700;
 }
 
-*{
+* {
     margin: 0;
     border: 0;
     padding: 0;
@@ -26,11 +26,11 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     font-size: 62.5%; /* 10px */
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -49,20 +49,20 @@ body{
     position: relative;
 }
 
-.digitalLogo img{
+.digitalLogo img {
     max-width: 100%;
     height: auto;
 }
 
-.contactInfos{
+.contactInfos {
     line-height: 3.2rem;
 }
 
-.contactInfos:last-child{
+.contactInfos:last-child {
     line-height: none;
 }
 
-.mailStyle{
+.mailStyle {
     color: #dc99d7;
     font-size: 2.4rem;
     font-family: "Graphik", sans-serif;
@@ -70,31 +70,31 @@ body{
     padding-bottom: 1.5rem;
 }
 
-.mailStyle span{
+.mailStyle span {
     font-family: "Graphik", sans-serif;
     font-weight: 400;
     color: #dc99d7;
 }
 
-.addressInfos{
+.addressInfos {
     font-size: 1.6rem;
     margin-left: 15%; 
     margin-top: -5rem;
 }
 
-.sloganText{
+.sloganText {
     text-align: end;
     margin-right: 15.5%;
     margin-top: -5rem;
 }
 
-.sloganText h2{
+.sloganText h2 {
     font-size: 4.0rem;
     font-family: "Graphik", sans-serif;
     font-weight: 500; 
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: 700; 
 }
@@ -146,4 +146,30 @@ a{
         display: block;
         margin-top: 1rem;
     }
+}
+
+/* Media Query para telas entre 1024px e 1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .fourdLogo {
+    margin-top: 3% ;
+    }
+
+    .digitalLogo {
+        margin-top: -6rem; /* Ajuste conforme necessário */
+    }
+
+    .addressInfos {
+        margin-left: 12%;
+        font-size: 1.4rem; /* Ajuste o tamanho da fonte */
+    }
+
+    .sloganText {
+        margin-right: 10%;
+        font-size: 3.6rem; /* Ajuste o tamanho da fonte */
+    }
+
+    .sloganText h2 {
+        font-size: 3rem;
+    }
+
 }
